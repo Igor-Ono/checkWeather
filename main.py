@@ -6,7 +6,7 @@ import json
 if __name__ == '__main__':
     baseUrl = 'http://api.openweathermap.org/data/2.5/forecast'
     # In 'appid', insert your own key from OpenWeather
-    parameters = {'q': 'Dublin,IE', 'appid': 'd78a3e85352688277b2df315032c99ea', 'units': 'metric'}
+    parameters = {'q': 'Dublin,IE', 'appid': 'YOUR-KEY-HERE', 'units': 'metric'}
     response = requests.get(baseUrl, params=parameters)
     content = response.content
     # Parse json info
