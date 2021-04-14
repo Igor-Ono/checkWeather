@@ -1,4 +1,5 @@
 # Prints weather information for the next 5 days split in 3-hour segments
+# For API information: https://openweathermap.org/forecast5
 import requests
 import json
 
